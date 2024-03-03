@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculater</title>
+    
+    <!-- Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<style>
+        
+         * {
+            padding:0px;
+            }
+
+        section {margin-top:100px;}
+
+        table{
+        background-color: #fff;
+        -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75); 
+        width:500px;
+        height:400px;
+        margin: 0 auto;
+        padding:10px;
+        border-radius: 5px;
+        }
+        
+        h2 {text-align: center; color: cadetblue; font-family: "Roboto", sans-serif;}
+        
+        h4 {text-align: left; color: cadetblue; font-family: "Roboto", sans-serif; margin-top:0px;}
+
+        label, input[type=”text”], ::placeholder {color: cadetblue; font-weight: bold;}
+
+        label, input[type=”text”], button[type="submit"], select {font-family: "Poppins", sans-serif; border-radius:2px; width:100%; border:0px; background-color: #fff;}
+
+        select{padding:5px; border:1px solid #e6e6e6;}
+        
+        button[type="submit"] {background-color:#4caf50; color:#fff; font-weight: bold; padding:5px; border-radius:10px; border:none; font-size: 16px;}
+
+        button[type="submit"]:hover {background-color:burlywood; color:#000;}
+        
+        </style>   
+</head>
+<body>
+<section>
+<table>
+<tbody>
+    <tr>
+    <td><h2>DISCOUNT CALCULATER</h2></td>
+    </tr>
+    <tr>
+    <td><h4>Enter the Bill amount and discount in percentage</h4></td>
+    </tr>
+    <tr>
+    <td>
+    <label for="">Bill Amount</label><br>
+    <input type="text" required placeholder="55555" style="width:98%; padding:5px;border:1px solid #e6e6e6; "></td>
+    </tr>
+    <tr>
+    <td>
+        <label for="">Discount Percentage</label><br>
+        <select autofocus>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <!-- <option>Python</option> -->
+    </select></td>
+    </tr>
+    <tr>
+        <td> <button type="submit">Calculate</button></td>
+       <!-- <td> <button type="reset">Clear</button> </td>-->
+    </tr>
+    <tr>
+        <td><h4>Total Discount Amount</h4></td>
+        </tr>
+</tbody>
+</table>
+</section>
+</body>
+</html>
